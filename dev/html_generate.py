@@ -172,13 +172,14 @@ def make_html(file,sorter):
 
 
 
+if __name__ == '__main__':
 
-# three different sortings, linked to each other
-make_html('../freqindex.html','freq')
+    # three different sortings, linked to each other
+    make_html('../freqindex.html','freq')
 
-make_html('../recentindex.html','recent')
+    make_html('../recentindex.html','recent')
 
-make_html('../index.html','alpha')
+    make_html('../index.html','alpha')
 
 
 
